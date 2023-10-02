@@ -3,9 +3,88 @@
     margin: 0;
 }
 
-#new_body{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+body{
     background-color: #222222;
+    overflow: hidden;
+}
+
+.cloud{
+    position: absolute;
+    opacity: 1;
+    scale: 1.3;
+    /* animation-fill-mode: forwards; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#purple_cloud{
+    left: 60vw;
+    top: 5vw;
+    animation: purple_cloud_animation 3s;
+}
+
+#blue_cloud{
+    left: 10vw;
+    top: 5vw;
+}
+
+#green_cloud{
+    left: 20vw;
+    top: 37vw;
+}
+
+#corner_cloud{
+    right: 2vw;
+    bottom: 2vw;
+    animation: corner_cloud_animation;
+}
+
+/* Remember to use ~ for selecting any element to affect*/
+
+@keyframes purple_cloud_animation {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.7;
+    }
+    35%{
+        opacity: 0.7;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 0.7;
+    }
+    60%{
+        opacity: 0.7;
+    }
+    65%{
+        opacity: 0;
+    }
+}
+
+@keyframes corner_cloud_animation {
+    0%{
+        opacity: 0;
+    }
+    69%{
+        opacity: 0;
+    }
+    79%{
+        opacity: 1;
+    }
+    89%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 0;
+    }
 }
