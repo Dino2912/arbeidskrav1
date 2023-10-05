@@ -1,0 +1,174 @@
+
+.star_squad_0{
+    animation: star_squad_0_animation 45s infinite forwards ease-in-out;
+}
+
+.star_squad_1{
+    animation: star_squad_1_animation 30s infinite forwards ease-in-out;
+}
+
+.star_squad_2{
+    animation: star_squad_2_animation 30s infinite forwards ease-in-out;
+}
+
+.star_squad_3{
+    animation: star_squad_3_animation 60s infinite forwards ease-in-out;
+}
+
+.star_squad_4{
+    animation: star_squad_4_animation 60s infinite forwards ease-in-out;
+}
+
+.dynamic_opacity_star{
+    animation: dynamic_opacity_star_animation 3s infinite forwards ease-in-out;
+}
+
+@keyframes dynamic_opacity_star_animation {
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 1.0;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}
+
+@keyframes star_squad_0_animation {
+    0%{
+        transform: translate(0,0);
+    }
+    17%{
+        transform: translate(-8px,-18px);
+    }
+    24%{
+        transform: translate(-2px,-10px);
+    }
+    33%{
+        transform: translate(6px,-15px);
+    }
+    48%{
+        transform: translate(1px,10px);
+    }
+    63%{
+        transform: translate(4px,4px);
+    }
+    78%{
+        transform: translate(16px,5px);
+    }
+    95%{
+        transform: translate(4px,-4px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes star_squad_1_animation {
+    0%{
+        transform: translate(0,0);
+    }
+    5%{
+        transform: translate(4px,2px);
+    }
+    15%{
+        transform: translate(14px,-8px);
+    }
+    35%{
+        transform: translate(0,0);
+    }
+    45%{
+        transform: translate(3px,12px);
+    }
+    70%{
+        transform: translate(-7px,4px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes star_squad_2_animation {
+    0%{
+        transform: translate(0,0);
+    }
+    18%{
+        transform: translate(10px,0);
+    }
+    25%{
+        transform: translate(0,0);
+    }
+    40%{
+        transform: translate(5px,12px);
+    }
+    60%{
+        transform: translate(0,0);
+    }
+    75%{
+        transform: translate(7px,7px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes star_squad_3_animation {
+    0%{
+        transform: translate(0,0);
+    }
+    8%{
+        transform: translate(-4px,8px);
+    }
+    16%{
+        transform: translate(8px,9px);
+    }
+    24%{
+        transform: translate(5px,13px);
+    }
+    38%{
+        transform: translate(13px,5px);
+    }
+    44%{
+        transform: translate(7px,9px);
+    }
+    69%{
+        transform: translate(-11px,-8px);
+    }
+    88%{
+        transform: translate(0,3px);
+    }
+    91%{
+        transform: translate(3px,1px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes star_squad_4_animation {
+    0%{
+        transform: translate(0,0);
+    }
+    27%{
+        transform: translate(8px,-14px);
+    }
+    37%{
+        transform: translate(4px,-4px);
+    }
+    44%{
+        transform: translate(8px,-8px);
+    }
+    62%{
+        transform: translate(2px,2px);
+    }
+    77%{
+        transform: translate(9px,13px);
+    }
+    89%{
+        transform: translate(-9px,-4px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}

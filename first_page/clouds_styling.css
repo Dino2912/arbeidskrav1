@@ -1,0 +1,148 @@
+.cloud{
+    position: absolute;
+    opacity: 1;
+    scale: 1.3;
+}
+
+#purple_cloud{
+    left: 60vw;
+    top: 5vw;
+    animation: purple_cloud_animation 24s infinite;
+}
+
+#blue_cloud{
+    left: 10vw;
+    top: 5vw;
+    animation: blue_cloud_animation 24s infinite;
+}
+
+#green_cloud{
+    left: 20vw;
+    top: 37vw;
+    animation: green_cloud_animation 24s infinite;
+}
+
+#corner_cloud{
+    right: 2vw;
+    bottom: 2vw;
+    animation: corner_cloud_animation 24s infinite;
+}
+
+/* Remember to use ~ for selecting any element to affect*/
+
+@keyframes green_cloud_animation {
+    0%{
+        opacity: 0;
+    }
+    5%{
+        opacity: 0.6;
+    }
+    7%{
+        opacity: 0.6;
+    }
+    9%{
+        opacity: 0;
+    }
+    16%{
+        opacity: 0;
+    }
+    18%{
+        opacity: 0.6;
+    }
+    20%{
+        opacity: 0.6;
+    }
+    22%{
+        opacity: 0;
+    }
+    44%{
+        opacity: 0;
+    }
+    46%{
+        opacity: 0.6;
+    }
+    48%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes blue_cloud_animation {
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0;
+    }
+    36%{
+        opacity: 0.6;
+    }
+    39%{
+        opacity: 0.6;
+    }
+    42%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes purple_cloud_animation {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.6;
+    }
+    35%{
+        opacity: 0.6;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 0.6;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    65%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes corner_cloud_animation {
+    0%{
+        opacity: 0;
+    }
+    69%{
+        opacity: 0;
+    }
+    79%{
+        opacity: 1;
+    }
+    89%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}

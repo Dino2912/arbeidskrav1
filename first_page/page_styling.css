@@ -8,83 +8,21 @@ body{
     overflow: hidden;
 }
 
-.cloud{
+.star{
     position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    box-shadow: 0 0 7px 3px #eeeeee,
+    0 0 10px 5px #ffff00,
+    0 0 25px 15px #cccc00;
+}
+
+/* Temp VVV */
+.dynamic_opacity_star{
     opacity: 1;
-    scale: 1.3;
-    /* animation-fill-mode: forwards; */
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
-
-#purple_cloud{
-    left: 60vw;
-    top: 5vw;
-    animation: purple_cloud_animation 3s;
-}
-
-#blue_cloud{
-    left: 10vw;
-    top: 5vw;
-}
-
-#green_cloud{
-    left: 20vw;
-    top: 37vw;
-}
-
-#corner_cloud{
-    right: 2vw;
-    bottom: 2vw;
-    animation: corner_cloud_animation;
-}
-
-/* Remember to use ~ for selecting any element to affect*/
-
-@keyframes purple_cloud_animation {
-    0%{
-        opacity: 0;
-    }
-    25%{
-        opacity: 0;
-    }
-    30%{
-        opacity: 0.7;
-    }
-    35%{
-        opacity: 0.7;
-    }
-    40%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    55%{
-        opacity: 0.7;
-    }
-    60%{
-        opacity: 0.7;
-    }
-    65%{
-        opacity: 0;
-    }
-}
-
-@keyframes corner_cloud_animation {
-    0%{
-        opacity: 0;
-    }
-    69%{
-        opacity: 0;
-    }
-    79%{
-        opacity: 1;
-    }
-    89%{
-        opacity: 1;
-    }
-    99%{
-        opacity: 0;
-    }
+.static_opacity_star{
+    opacity: 0.75;
 }
