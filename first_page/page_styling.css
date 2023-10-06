@@ -8,21 +8,53 @@ body{
     overflow: hidden;
 }
 
+#redirect_btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 555;
+
+    text-decoration: none;
+    background-color: #000080;
+    opacity: 0.7;
+    width: 30vw;
+    height: 5vw;
+}
+
+#redirect_btn p{
+    position: absolute;
+    font-size: 3.5vw;
+    font-style: italic;
+    text-align: center;
+    color: #800080;
+    text-shadow: 4px 2px #00ffff;
+    z-index: 999;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+    height: 5vw;
+    white-space: nowrap;
+}
+
 .star{
     position: absolute;
     width: 10px;
     height: 10px;
+
     background-color: #eeeeee;
     border-radius: 50%;
     box-shadow: 0 0 7px 3px #eeeeee,
-    0 0 10px 5px #ffff00,
-    0 0 25px 15px #cccc00;
+    0 0 8px 5px #ffff00,
+    0 0 20px 15px #cccc00;
 }
 
-/* Temp VVV */
 .dynamic_opacity_star{
     opacity: 1;
 }
+
 .static_opacity_star{
     opacity: 0.75;
 }

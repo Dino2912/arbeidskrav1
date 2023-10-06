@@ -15,8 +15,8 @@ height = index-width
 
 for h in range(height):
     for w in range(width):
-        rannumX = 0#random.randrange(-10,10)
-        rannumY = 0#random.randrange(-10,10)
+        rannumX = random.randrange(-8,8)
+        rannumY = random.randrange(-8,8)
         star_squad = random.randrange(0,5)
         matrix_pos = (w,h)
         if(matrix_pos in opacity_stars_array):
